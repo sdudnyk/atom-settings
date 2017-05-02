@@ -1,0 +1,88 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117222-26578-15qttym/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117222-26578-15qttym/package.tgz",
+        "spec": "/tmp/d-117222-26578-15qttym/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117222-26578-kfwefa"
+    ]
+  ],
+  "_from": "../d-117222-26578-15qttym/package.tgz",
+  "_id": "csstree-validator@0.0.12",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/csstree-validator",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117222-26578-15qttym/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117222-26578-15qttym/package.tgz",
+    "spec": "/tmp/d-117222-26578-15qttym/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117222-26578-15qttym/package.tgz",
+  "_shasum": "afcc5b76881a283baeec4cd8cd5163dab813860b",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117222-26578-15qttym/package.tgz",
+  "_where": "/tmp/apm-install-dir-117222-26578-kfwefa",
+  "bugs": {
+    "url": "https://github.com/csstree/atom-plugin/issues"
+  },
+  "contributors": [
+    {
+      "name": "Sergey Melyukov",
+      "email": "s.melukov@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "atom-linter": "^8.0.0",
+    "atom-package-deps": "^4.0.1",
+    "csstree-validator": "1.0.8"
+  },
+  "description": "Validate CSS according to W3C specs and browser implementations",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.7.0 <2.0.0"
+  },
+  "homepage": "https://github.com/csstree/atom-plugin",
+  "keywords": [
+    "atom",
+    "css",
+    "csstree",
+    "lint",
+    "validator",
+    "w3c"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "name": "csstree-validator",
+  "optionalDependencies": {},
+  "package-deps": [
+    "linter"
+  ],
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  },
+  "readme": "# csstree-validator\n\nValidate CSS according to W3C specs and browser implementations.\n\nExtension highlights wrong properties and values when enabled. Just install the extension and open your CSS file. Validation will be performing in background.\n\n<img width=\"754\" src=\"https://cloud.githubusercontent.com/assets/6654581/18791374/21b9acd0-81bb-11e6-85cb-a1e150beb495.png\">\n\nCSS validator based on [CSSTree](https://github.com/csstree/validator) as [plugin](https://atom.io/packages/csstree-validator) for Atom Editor.\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csstree/atom-plugin.git"
+  },
+  "version": "0.0.12"
+}

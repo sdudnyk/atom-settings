@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+        "spec": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+        "type": "local"
+      },
+      "/tmp/apm-install-dir-117223-14135-182yhpl"
+    ]
+  ],
+  "_from": "../d-117223-14135-13zhf9i/package.tgz",
+  "_id": "indent-guide-ext@0.2.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/indent-guide-ext",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+    "spec": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117223-14135-13zhf9i/package.tgz",
+  "_shasum": "d4b133fa36945c42ab06243d17d855da838d354d",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/d-117223-14135-13zhf9i/package.tgz",
+  "_where": "/tmp/apm-install-dir-117223-14135-182yhpl",
+  "bugs": {
+    "url": "https://github.com/SKAhack/indent-guide-ext/issues"
+  },
+  "dependencies": {},
+  "description": "Can detect both tab and space",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">1.13.0"
+  },
+  "homepage": "https://github.com/SKAhack/indent-guide-ext#readme",
+  "license": "MIT",
+  "main": "./lib/indent-guide-ext",
+  "name": "indent-guide-ext",
+  "optionalDependencies": {},
+  "readme": "# indent-guide-ext\n\n## feature\n\n- Can detect both tab and space\n\n## Thanks\nhttps://github.com/nathanaelkane/vim-indent-guides\n\n## Licence\nMIT\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SKAhack/indent-guide-ext.git"
+  },
+  "version": "0.2.3"
+}

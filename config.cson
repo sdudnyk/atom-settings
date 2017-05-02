@@ -1,0 +1,25 @@
+"*":
+  "atom-beautify":
+    general:
+      _analyticsUserId: "e1e66067-b786-46ee-becb-68ed2895bf94"
+  core:
+    disabledPackages: [
+      "wrap-guide"
+      "indent-guide-improved"
+      "indent-guide-ext"
+      "git-diff"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "monokai"
+    ]
+  editor: {}
+  "exception-reporting":
+    userId: "70bbd92e-4675-4f4b-abc3-9ed32a66db72"
+  "linter-ui-default":
+    showPanel: true
+  "tree-view":
+    hideVcsIgnoredFiles: false
+  welcome:
+    showOnStartup: false
